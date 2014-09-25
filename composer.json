@@ -1,0 +1,21 @@
+{
+    "name": "sunchao/composer-dev",
+    "description": "测试使用composer-dev",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "sunchao",
+            "email": "sunchao@starschina.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+      "php": ">=5.3.0"
+    },
+    "autoload": {
+      "psr-4":{
+        "dev\\t1\\": "dev/t1",
+        "dev\\t2\\": "dev/t2"
+      }
+    }
+}
